@@ -15,6 +15,7 @@ namespace WF_1_Hw
             MessageBox.Show(msg2, "My age", MessageBoxButtons.OK, MessageBoxIcon.Information);
             MessageBox.Show(msg3, "My favourite thngs to do.", MessageBoxButtons.OK, MessageBoxIcon.Information);
             MessageBox.Show(msg4, "Someones i love.", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(Convert.ToString((msg1.Length+msg2.Length+msg3.Length+msg4.Length)/4), "Average amound of words per window.", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
         }
